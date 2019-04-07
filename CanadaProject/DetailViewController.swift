@@ -9,17 +9,8 @@
 import Foundation
 import UIKit
 
+
 class DetailViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBOutlet weak var nameLabel: UILabel! //will display the title from json
     
@@ -28,4 +19,49 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var descriptionTextView: UITextView! //will display the description from json
 
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.nameLabel.text = CanadaData.name
+        self.descriptionTextView.text = CanadaData.desc
+        self.detailImageView.image = UIImage(data: CanadaData.image as! Data)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func downloadDetails() {
+        
+        
+    }
+    
+    func downloadImage() {
+        let session = URLSession(configuration: .default)
+        
+        let downloadPicTask = session.dataTask(with: imageURL) { (data, response, error) in
+            
+            
+        
+    }
+    
+    
+
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

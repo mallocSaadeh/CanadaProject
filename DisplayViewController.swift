@@ -32,7 +32,7 @@ class DisplayViewController: UIViewController {
     
     
     
-    func downloadTitles() { // download the title names to display in the titleTableView
+    func downloadTitles() completion { // download the title names to display in the titleTableView
         
         let url = URL(string: "https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/facts.json")!
         
@@ -48,7 +48,7 @@ class DisplayViewController: UIViewController {
             
 //            let json = try! JSONSerialization.jsonObject(with: data!, options: .mutableLeaves as! [String:Any])
             
-            let title = json["title"] as! [[String:Any]]]
+         
             
             
         

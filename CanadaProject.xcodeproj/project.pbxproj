@@ -17,6 +17,7 @@
 		8E88C9C22259791900EB3476 /* CanadaProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88C9C12259791900EB3476 /* CanadaProjectUITests.swift */; };
 		8E88C9D02259899400EB3476 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88C9CF2259899400EB3476 /* DisplayViewController.swift */; };
 		8E88C9D222598A8D00EB3476 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88C9D122598A8D00EB3476 /* DetailViewController.swift */; };
+		8E88C9D4225A4C3900EB3476 /* CanadaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88C9D3225A4C3900EB3476 /* CanadaData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8E88C9C32259791900EB3476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E88C9CF2259899400EB3476 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayViewController.swift; path = ../DisplayViewController.swift; sourceTree = "<group>"; };
 		8E88C9D122598A8D00EB3476 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8E88C9D3225A4C3900EB3476 /* CanadaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanadaData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		8E88C99D2259791900EB3476 /* CanadaProject */ = {
 			isa = PBXGroup;
 			children = (
+				8E88C9D3225A4C3900EB3476 /* CanadaData.swift */,
 				8E88C99E2259791900EB3476 /* AppDelegate.swift */,
 				8E88C9A02259791900EB3476 /* ViewController.swift */,
 				8E88C9D122598A8D00EB3476 /* DetailViewController.swift */,
@@ -273,6 +276,7 @@
 				8E88C9D222598A8D00EB3476 /* DetailViewController.swift in Sources */,
 				8E88C99F2259791900EB3476 /* AppDelegate.swift in Sources */,
 				8E88C9D02259899400EB3476 /* DisplayViewController.swift in Sources */,
+				8E88C9D4225A4C3900EB3476 /* CanadaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
