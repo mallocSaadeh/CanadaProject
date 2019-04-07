@@ -15,6 +15,8 @@
 		8E88C9AC2259791900EB3476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E88C9AA2259791900EB3476 /* LaunchScreen.storyboard */; };
 		8E88C9B72259791900EB3476 /* CanadaProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88C9B62259791900EB3476 /* CanadaProjectTests.swift */; };
 		8E88C9C22259791900EB3476 /* CanadaProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88C9C12259791900EB3476 /* CanadaProjectUITests.swift */; };
+		8E88C9D02259899400EB3476 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88C9CF2259899400EB3476 /* DisplayViewController.swift */; };
+		8E88C9D222598A8D00EB3476 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88C9D122598A8D00EB3476 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8E88C9BD2259791900EB3476 /* CanadaProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanadaProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E88C9C12259791900EB3476 /* CanadaProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaProjectUITests.swift; sourceTree = "<group>"; };
 		8E88C9C32259791900EB3476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E88C9CF2259899400EB3476 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayViewController.swift; path = ../DisplayViewController.swift; sourceTree = "<group>"; };
+		8E88C9D122598A8D00EB3476 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				8E88C99E2259791900EB3476 /* AppDelegate.swift */,
 				8E88C9A02259791900EB3476 /* ViewController.swift */,
+				8E88C9CF2259899400EB3476 /* DisplayViewController.swift */,
 				8E88C9A22259791900EB3476 /* Main.storyboard */,
 				8E88C9A82259791900EB3476 /* Assets.xcassets */,
 				8E88C9AA2259791900EB3476 /* LaunchScreen.storyboard */,
 				8E88C9AD2259791900EB3476 /* Info.plist */,
 				8E88C9A52259791900EB3476 /* CanadaProject.xcdatamodeld */,
+				8E88C9D122598A8D00EB3476 /* DetailViewController.swift */,
 			);
 			path = CanadaProject;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			files = (
 				8E88C9A72259791900EB3476 /* CanadaProject.xcdatamodeld in Sources */,
 				8E88C9A12259791900EB3476 /* ViewController.swift in Sources */,
+				8E88C9D222598A8D00EB3476 /* DetailViewController.swift in Sources */,
 				8E88C99F2259791900EB3476 /* AppDelegate.swift in Sources */,
+				8E88C9D02259899400EB3476 /* DisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
