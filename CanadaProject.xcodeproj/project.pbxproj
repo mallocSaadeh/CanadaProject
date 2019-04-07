@@ -105,13 +105,13 @@
 			children = (
 				8E88C99E2259791900EB3476 /* AppDelegate.swift */,
 				8E88C9A02259791900EB3476 /* ViewController.swift */,
+				8E88C9D122598A8D00EB3476 /* DetailViewController.swift */,
 				8E88C9CF2259899400EB3476 /* DisplayViewController.swift */,
 				8E88C9A22259791900EB3476 /* Main.storyboard */,
 				8E88C9A82259791900EB3476 /* Assets.xcassets */,
 				8E88C9AA2259791900EB3476 /* LaunchScreen.storyboard */,
 				8E88C9AD2259791900EB3476 /* Info.plist */,
 				8E88C9A52259791900EB3476 /* CanadaProject.xcdatamodeld */,
-				8E88C9D122598A8D00EB3476 /* DetailViewController.swift */,
 			);
 			path = CanadaProject;
 			sourceTree = "<group>";
