@@ -20,6 +20,12 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBOutlet weak var nameLabel: UILabel! //will display the title from json
+    
+    @IBOutlet weak var detailImageView: UIImageView! //will display the image from json
+    
+    @IBOutlet weak var descriptionTextView: UITextView! //will display the description from json
 
     
 }
